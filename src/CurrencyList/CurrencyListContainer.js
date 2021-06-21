@@ -2,10 +2,7 @@ import React from 'react';
 import CurrencyList from './CurrencyList';
 
 class CurrencyListContainer extends React.Component {
-    constructor(){
-        super();
-    }
-    render(){
+    render() {
         console.log(this.props);
         return <>
             <CurrencyList

@@ -1,16 +1,13 @@
 import React from 'react';
 import Currency from './Currency';
 
-class CurrencyContainer extends React.Component{
-    constructor(){
-        super();
-    }
-    render(){
+class CurrencyContainer extends React.Component {
+    render() {
         console.log(this.props);
         return <>
             <Currency
-            currencyValue={this.props.currencyValue}
-            currencyHandler={this.props.currencyHandler}
+                currencyValue={this.props.currencyValue}
+                currencyHandler={this.props.currencyHandler}
             />
 
         </>
